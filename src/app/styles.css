@@ -1,0 +1,51 @@
+body {
+    font-family: "Assistant", sans-serif;
+}
+
+a.logo {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.logo > span {
+    font-weight: 700;
+}
+
+.footer {
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 80px auto 0 auto;
+}
+
+.credentials {
+    display: inline-block;
+    margin: 0;
+}
+
+.social-links {
+    float: right;
+    padding: 0;
+}
+
+.social-links {
+    float: right;
+    padding: 0;
+}
+
+.social-links li {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.social-links li a {
+    padding: 0 15px;
+    color: #000;
+    transition: all 0.4s ease;
+}
+.social-links li a:hover, .social-links li a:active {
+    color: #ffd400;
+}
