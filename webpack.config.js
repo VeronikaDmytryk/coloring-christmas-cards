@@ -26,7 +26,21 @@ var config = {
                 test: /\.css/,
                 loaders: ['style-loader', 'css-loader'],
                 include: SRC_DIR
-            }
+            },
+            {
+                test: /\.svg$/,
+                use: [
+                  {
+                    loader: "babel-loader"
+                  },
+                  {
+                    loader: "react-svg-loader",
+                    options: {
+                      jsx: true
+                    }
+                  }
+                ]
+              }
         ]
     }
 };

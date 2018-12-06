@@ -1,5 +1,8 @@
 body {
     font-family: "Assistant", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 a.logo {
@@ -48,4 +51,22 @@ a.logo > span {
 }
 .social-links li a:hover, .social-links li a:active {
     color: #ffd400;
+}
+
+#color-picker {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.indicator {
+    position: absolute;
+    width: 50px;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    transition: all 0.1s linear;
+    pointer-events: none;
 }
