@@ -28,6 +28,7 @@
   "homepage": "https://github.com/VeronikaDmytryk/coloring-christmas-cards#readme",
   "dependencies": {
     "babel-core": "^6.26.3",
+    "canvg": "^1.5.3",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -42,8 +43,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^1.0.1",
-    "react-svg-loader": "^2.1.0",
     "style-loader": "^0.23.1",
+    "svg-react-loader": "^0.4.6",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"

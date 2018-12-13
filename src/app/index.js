@@ -1,10 +1,8 @@
 import React from "react"
 import { render } from "react-dom"
 import styles from "./styles.css"
-import { ColoringArea } from "./components/ColoringScreen/ColoringArea.jsx"
+import { MainArea } from "./components/MainArea.jsx"
 import { Footer } from "./components/Footer.jsx"
-import { ColorPicker } from "./components/ColoringScreen/ColorPicker.jsx"
-// import Image1 from "./assets/uncolored/1_bear.svg"
 
 class App extends React.Component {
     constructor() {
@@ -13,7 +11,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <ColorPicker />
+                <MainArea />
                 <Footer />
             </div>
         );
